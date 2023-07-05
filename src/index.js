@@ -1,6 +1,6 @@
 import express from "express";
 
-import linebot_router from "./line-bot/server.js";
+import linebot_router from "./line-bot/router.js";
 import db_router from "./db/router.js";
 
 const app = express();
