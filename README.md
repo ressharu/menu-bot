@@ -4,6 +4,18 @@
 
 TODO: いつか説明を書く
 
+### アーキテクチャ
+
+```mermaid
+graph TD
+  LINE --> |post /webhook| linebot
+
+  linebot --> |get /api| database
+  database --> linebot
+  
+  scraping --> |post /api| database
+```
+
 ## プロジェクトの始め方
 
 ### 実行環境
