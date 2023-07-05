@@ -9,9 +9,9 @@ const config = {
 
 const client = new Client(config);
 
-const app = express();
+const router = express.Router();
 
-app.post("/webhook", middleware(config), async (req, res) => {
+router.post("/webhook", middleware(config), async (req, res) => {
 	const events = req.body.events;
 
 	await Promise.all(
@@ -32,4 +32,4 @@ app.post("/webhook", middleware(config), async (req, res) => {
 	res.end();
 });
 
-app.listen(3000, () => console.log("listening on port 3000"));
+export default router;
