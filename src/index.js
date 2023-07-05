@@ -1,3 +1,4 @@
+import "dotenv/config";
 import express from "express";
 
 import linebot_router from "./line-bot/router.js";
