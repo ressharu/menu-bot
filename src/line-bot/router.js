@@ -1,6 +1,8 @@
 import express from "express";
 import { Client, middleware } from "@line/bot-sdk";
 
+import text from "./message/text.js";
+
 const config = {
 	channelAccessToken: process.env.CHANNEL_ACCESS_TOKEN,
 	channelSecret: process.env.CHANNEL_SECRET,
@@ -18,11 +20,7 @@ router.post("/webhook", middleware(config), async (req, res) => {
 			console.log(event);
 
 			if (event.type === "message" && event.message.type === "text") {
-				const response = {
-					type: "text",
-					text: event.message.text,
-				};
-
+				const response = await text(event);
 				client.replyMessage(event.replyToken, response);
 			}
 		}),
