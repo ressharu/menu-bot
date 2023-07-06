@@ -13,7 +13,7 @@ router.post("/api", bodyParser.json(), async (req, res) => {
 });
 
 router.get("/api", async (req, res) => {
-	res.json(pull());
+	res.json(await pull());
 	res.end();
 });
 

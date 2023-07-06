@@ -14,10 +14,10 @@ const getMenu = async (url) => {
 	const tbody = document.querySelector("tbody");
 	const [date, higawari, ..._] = [...tbody.children];
 
-	const month = /^[1-9]+/.exec([...date.children][0].textContent)[0];
+	const month = /^[0-9]+/.exec([...date.children][0].textContent)[0];
 	const days = [...date.children]
 		.slice(1)
-		.map((d) => /[1-9]+/.exec(d.textContent)[0]);
+		.map((d) => /[0-9]+/.exec(d.textContent)[0]);
 
 	const menu = {
 		month,
