@@ -17,10 +17,11 @@ const replyMap = {
 	来週の金曜: async (event) => ({ type: "text", text: await getMenu(1, 4) }),
 };
 
-export default (event) => {
-	const response = (
+export default async (event) => {
+	const response = await (
 		replyMap[event.message.text] ??
 		(() => ({ type: "text", text: "そのメッセージに対応してないっぽい" }))
 	)(event);
+
 	return response;
 };
