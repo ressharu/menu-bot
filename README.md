@@ -4,6 +4,18 @@
 
 TODO: いつか説明を書く
 
+### アーキテクチャ
+
+```mermaid
+graph TD
+  LINE --> |post /webhook| linebot
+
+  linebot --> |get /api| database
+  database --> linebot
+  
+  scraping --> |post /api| database
+```
+
 ## プロジェクトの始め方
 
 ### 実行環境
@@ -15,7 +27,7 @@ TODO: いつか説明を書く
 ```
 git clone git@github.com:aizuhack2023-team06/menu-bot.git
 cd menu-bot
-npm init
+npm install
 code .
 ```
 
