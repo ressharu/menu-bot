@@ -28,7 +28,7 @@ const getMenu = async (url) => {
 	return menu;
 };
 
-export default async () => [getMenu(mn1), getMenu(mn2)];
+export default async () => [await getMenu(mn1), await getMenu(mn2)];
 /*
 // テスト用
 export default async () => [
