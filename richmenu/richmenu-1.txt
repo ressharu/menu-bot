@@ -1,0 +1,88 @@
+curl -v -X POST https://api.line.me/v2/bot/richmenu \
+ -H 'Authorization: Bearer process.env.CHANNEL_ACCESS_TOKEN' \
+ -H 'Content-Type: application/json' \
+ -d \
+'{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "今週",
+  "chatBarText": "今週",
+  "areas": [
+    {
+      "bounds": {
+        "x": 110,
+        "y": 196,
+        "width": 477,
+        "height": 552
+      },
+      "action": {
+        "type": "message",
+        "text": "今週の月曜"
+      }
+    },
+    {
+      "bounds": {
+        "x": 515,
+        "y": 788,
+        "width": 464,
+        "height": 525
+      },
+      "action": {
+        "type": "message",
+        "text": "今週の木曜"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1005,
+        "y": 194,
+        "width": 467,
+        "height": 563
+      },
+      "action": {
+        "type": "message",
+        "text": "今週の火曜"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1478,
+        "y": 785,
+        "width": 461,
+        "height": 525
+      },
+      "action": {
+        "type": "message",
+        "text": "今週の金曜"
+      }
+    },
+    {
+ "bounds": {
+ "x": 1367,
+ "y": 19,
+ "width": 909,
+ "height": 165
+ },
+ "action": {
+ "type": "richmenuswitch",
+ "richMenuAliasId": "richmenu-alias-2",
+ "data": "richmenu-changed-to-2"
+ }
+},
+    {
+      "bounds": {
+        "x": 1869,
+        "y": 200,
+        "width": 474,
+        "height": 560
+      },
+      "action": {
+        "type": "message",
+        "text": "今週の水曜"
+      }
+    }
+  ]
+}'

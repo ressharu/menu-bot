@@ -1,0 +1,2 @@
+curl -v -X POST https://api.line.me/v2/bot/user/all/richmenu/process.env.richmenuID-1 \
+ -H 'Authorization: Bearer process.env.CHANNEL_ACCESS_TOKEN'

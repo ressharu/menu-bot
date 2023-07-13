@@ -1,0 +1,87 @@
+curl -v -X POST https://api.line.me/v2/bot/richmenu \
+ -H 'Authorization: Bearer process.env.CHANNEL_ACCESS_TOKEN' \
+ -H 'Content-Type: application/json' \
+ -d '{
+  "size": {
+    "width": 2500,
+    "height": 1686
+  },
+  "selected": true,
+  "name": "来週",
+  "chatBarText": "来週",
+  "areas": [
+    {
+      "bounds": {
+        "x": 191,
+        "y": 25,
+        "width": 934,
+        "height": 159
+      },
+      "action": {
+        "type": "richmenuswitch",
+        "richMenuAliasId": "richmenu-alias-1",
+        "data": "richmenu-changed-to-1"
+      }
+    },
+    {
+      "bounds": {
+        "x": 117,
+        "y": 202,
+        "width": 461,
+        "height": 543
+      },
+      "action": {
+        "type": "message",
+        "text": "来週の月曜"
+      }
+    },
+    {
+      "bounds": {
+        "x": 986,
+        "y": 197,
+        "width": 511,
+        "height": 560
+      },
+      "action": {
+        "type": "message",
+        "text": "来週の火曜"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1853,
+        "y": 200,
+        "width": 503,
+        "height": 553
+      },
+      "action": {
+        "type": "message",
+        "text": "来週の水曜"
+      }
+    },
+    {
+      "bounds": {
+        "x": 496,
+        "y": 792,
+        "width": 483,
+        "height": 527
+      },
+      "action": {
+        "type": "message",
+        "text": "来週の木曜"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1472,
+        "y": 779,
+        "width": 474,
+        "height": 543
+      },
+      "action": {
+        "type": "message",
+        "text": "来週の金曜"
+      }
+    }
+  ]
+}'
