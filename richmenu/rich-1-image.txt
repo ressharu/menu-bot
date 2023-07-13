@@ -1,0 +1,4 @@
+curl -v -X POST https://api-data.line.me/v2/bot/richmenu/prosess.env.richmenuID-1/content \
+ -H 'Authorization: Bearer process.env.CHANNEL_ACCESS_TOKEN' \
+ -H "Content-Type: image/png" \
+ -T material/richmenu-1.PNG
