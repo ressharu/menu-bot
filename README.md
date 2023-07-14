@@ -1,15 +1,9 @@
 # menu-bot
 <p align="center">
   <picture>
-<<<<<<< HEAD
     <source media="(prefers-color-scheme: dark)" srcset="readme-material/icon_w_trans.png" width="300">
     <img src="readme-material/icon.jpg" alt="readme-material/icon.jpg"width="300">
   </picture>
-=======
-  <source media="(prefers-color-scheme: dark)" srcset="readme-material/icon_w_trans.png" width="300" >
-  <img src="readme-material/icon.jpg" alt="readme-material/icon.jpg"width="300">
-    </picture>
->>>>>>> ad697b81c3e400b5f2d591d3e1e52eb33b02eb3f
 </p>
 
 ## about menu-bot
