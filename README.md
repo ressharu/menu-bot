@@ -1,10 +1,5 @@
 # menu-bot
-<p align="center">
-	<picture>
-		<source media="(prefers-color-scheme: dark)" srcset="https://github.com/aizuhack2023-team06/menu-bot/assets/132208459/9aa5b5b3-a722-4e75-b44c-30099e29a1e5?raw=true" width="100">
-		<img alt="gakushokuBOT's logo" https://github.com/aizuhack2023-team06/menu-bot/assets/132208459/9aa5b5b3-a722-4e75-b44c-30099e29a1e5?raw=true" width="100">
-	</picture>
-</p>
+![Test Image 1](readme-material/5486.jpg)
 
 
 ## about menu-bot
