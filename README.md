@@ -1,7 +1,7 @@
 # menu-bot
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="readme-material/icon_w_trans.png" width="300">
+    <source media="(prefers-color-scheme: dark)" srcset="readme-material/icon_black.png" width="300">
     <img src="readme-material/icon.jpg" alt="readme-material/icon.jpg"width="300">
   </picture>
 </p>
