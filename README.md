@@ -1,5 +1,5 @@
 # menu-bot
-
+![5486](https://github.com/aizuhack2023-team06/menu-bot/assets/132208459/9aa5b5b3-a722-4e75-b44c-30099e29a1e5)
 ## about menu-bot
 
 TODO: いつか説明を書く
