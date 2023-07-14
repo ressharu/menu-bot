@@ -1,6 +1,10 @@
 # menu-bot
-![5486](https://github.com/aizuhack2023-team06/menu-bot/assets/132208459/9aa5b5b3-a722-4e75-b44c-30099e29a1e5)
-
+<p align="center">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="readme-material/icon_w_trans.png" width="300">
+  <img src="readme-material/5486.jpg" alt="readme-material/5486.jpg"width="300">
+    </picture>
+</p>
 
 ## about menu-bot
 
