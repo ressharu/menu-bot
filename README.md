@@ -6,8 +6,7 @@
 	</picture>
 </p>
 
-<div align="center">
-![5486]()
+
 ## about menu-bot
 
 TODO: いつか説明を書く
