@@ -1,5 +1,13 @@
 # menu-bot
-![5486](https://github.com/aizuhack2023-team06/menu-bot/assets/132208459/9aa5b5b3-a722-4e75-b44c-30099e29a1e5)
+<p align="center">
+	<picture>
+		<source media="(prefers-color-scheme: dark)" srcset="https://github.com/aizuhack2023-team06/menu-bot/assets/132208459/9aa5b5b3-a722-4e75-b44c-30099e29a1e5" width="700">
+		<img alt="gakushokuBOT's logo" https://github.com/aizuhack2023-team06/menu-bot/assets/132208459/9aa5b5b3-a722-4e75-b44c-30099e29a1e5" width="700">
+	</picture>
+</p>
+
+<div align="center">
+![5486]()
 ## about menu-bot
 
 TODO: いつか説明を書く
