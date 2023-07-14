@@ -1,6 +1,7 @@
 # menu-bot
-![Test Image 1](readme-material/5486.jpg)
-
+<p align="center">
+  <img src="readme-material/5486.jpg" alt="Sample Image">
+</p>
 
 ## about menu-bot
 
