@@ -1,8 +1,8 @@
 # menu-bot
 <p align="center">
 	<picture>
-		<source media="(prefers-color-scheme: dark)" srcset="https://github.com/aizuhack2023-team06/menu-bot/assets/132208459/9aa5b5b3-a722-4e75-b44c-30099e29a1e5" width="700">
-		<img alt="gakushokuBOT's logo" https://github.com/aizuhack2023-team06/menu-bot/assets/132208459/9aa5b5b3-a722-4e75-b44c-30099e29a1e5" width="700">
+		<source media="(prefers-color-scheme: dark)" srcset="https://github.com/aizuhack2023-team06/menu-bot/assets/132208459/9aa5b5b3-a722-4e75-b44c-30099e29a1e5" width="100">
+		<img alt="gakushokuBOT's logo" https://github.com/aizuhack2023-team06/menu-bot/assets/132208459/9aa5b5b3-a722-4e75-b44c-30099e29a1e5" width="100">
 	</picture>
 </p>
 
