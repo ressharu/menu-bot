@@ -1,6 +1,6 @@
 # menu-bot
 <p align="center">
-  <img src="readme-material/5486.jpg" alt="Sample Image">
+  <img src="readme-material/5486.jpg" alt="Sample Image"width="100">
 </p>
 
 ## about menu-bot
