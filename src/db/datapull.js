@@ -30,7 +30,7 @@ export default async () => {
 			data.setDate(base + 7 * j + i);
 			const tmp = await getMenu(data.getFullYear(), data.getMonth() + 1, data.getDate());
 			weekMenu.days.push(tmp[0]?.["日"] ?? "?");
-			weekMenu.higawari.push(tmp[0]?.["メニュー"] ?? "?");
+			weekMenu.higawari.push(tmp[0]?.["メニュー"] === "\n" ? "休日だバカめ" : (tmp[0]?.["メニュー"] ?? "?"));
 		}
 
 		res.push(weekMenu);
