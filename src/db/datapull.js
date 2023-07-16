@@ -29,7 +29,7 @@ export default async () => {
 		for (let i = 0; i < 5; i++) {
 			data.setDate(base + 7 * j + i);
 			const tmp = await getMenu(data.getFullYear(), data.getMonth() + 1, data.getDate());
-			weekMenu.days.push(tmp[0]?.["日"] ?? "?");
+			weekMenu.days.push(tmp[0]?.["日"] ?? "まだ追加されてないよ");
 			weekMenu.higawari.push(tmp[0]?.["メニュー"] === "\n" ? "休日だバカめ" : (tmp[0]?.["メニュー"] ?? "?"));
 		}
 
