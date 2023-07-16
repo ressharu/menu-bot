@@ -3,7 +3,6 @@ import bodyParser from "body-parser";
 
 import push from "./datapush.js";
 import pull from "./datapull.js";
-import { nextTick } from "process";
 
 const router = express.Router();
 
